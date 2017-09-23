@@ -1,0 +1,168 @@
+@import "../forRent/forRent-item/forRent-item-template.wxss";
+
+.userinfo {
+  position: relative;
+  width: 100%;
+  height: 320rpx;
+  background: #99ccff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 20rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #405f80;
+  font-size: 28rpx;
+}
+
+.view-cell {
+  padding: 25rpx 30rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  font-size: 30rpx;
+}
+
+.view-cell-line::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1rpx solid #d9d9d9;
+  color: #d9d9d9;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+
+.view-cell-primary {
+  flex: 1;
+}
+
+.view-img {
+  width: 45rpx;
+  height: 45rpx;
+  margin-right: 20rpx;
+  vertical-align: middle;
+}
+
+.view-name {
+  vertical-align: middle;
+  font-size: 26rpx;
+  letter-spacing: 1px;
+}
+
+.view-cell-arrow {
+  text-align: right;
+  color: #888;
+  content: " ";
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  height: 25rpx;
+  width: 25rpx;
+  border-width: 1px 1px 0 0;
+  border-color: #888;
+  border-style: solid;
+  position: relative;
+  top: -2px;
+  top: -1px;
+  margin-left: 30rpx;
+}
+
+.view-cell-arrow_s {
+  text-align: right;
+  color: #888;
+  content: " ";
+  display: inline-block;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(135deg);
+  height: 25rpx;
+  width: 25rpx;
+  border-width: 1px 1px 0 0;
+  border-color: #888;
+  border-style: solid;
+  position: relative;
+  top: -2px;
+  top: -1px;
+  margin-left: 30rpx;
+}
+
+.about-item {
+  padding: 10rpx 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.about-item_f {
+  padding: 10rpx 30rpx;
+}
+
+.about-item-title {
+  display: block;
+  font-size: 32rpx;
+  line-height: 60rpx;
+}
+
+.about-item-content {
+  margin-top: 10rpx;
+  display: block;
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+.link {
+  color: #80bd01;
+  text-decoration: underline;
+}
+
+.section {
+  margin-bottom:20rpx;
+  margin-top:30rpx;
+  margin-left: 50rpx;
+  margin-right: 50rpx;
+}
+
+.btn-area {
+  padding: 0 30px;
+}
+
+.placeHolder{
+  font-size: 30rpx;
+  letter-spacing: 1px;
+  font-family: MicroSoft Yahei;
+  color: #999;
+}
+
+.textarea{
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  letter-spacing: 1px;
+  font-family: MicroSoft Yahei;
+}
+
+.button{
+  background-color:#99ccff;
+  letter-spacing: 1px;
+  font-size: 34rpx;
+  font-family: MicroSoft Yahei;
+}

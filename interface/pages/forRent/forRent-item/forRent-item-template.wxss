@@ -1,0 +1,56 @@
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-bottom: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+  padding-bottom: 5rpx;
+  padding-top: 5rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.info{
+  flex: 1;
+}
+
+.imageContainer{
+    margin-right: 20rpx;
+    margin-top:10rpx;
+}
+.forRentImage{
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.titleText{
+  color: #303030;
+  font-size:34rpx;
+  font-weight:bold;
+}
+
+.titleview{
+    margin-bottom:10rpx;
+}
+
+.priceText{
+  float: right;
+  margin-right: 30rpx;
+  font-size: 36rpx;
+  color: #1C86EE;
+  letter-spacing: 1px;
+}
+
+.priceview{
+    margin-top:5rpx;
+}
+.addressText{
+  letter-spacing: 1px;
+  font-size: 28rpx; 
+}
+
+.homeTypeText{
+  font-size: 28rpx;  
+  letter-spacing: 1px;
+}

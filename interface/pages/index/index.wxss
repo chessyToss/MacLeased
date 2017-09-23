@@ -1,0 +1,65 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#99ccff;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #405f80;
+  font-size: 30rpx;
+}
+
+.rent{
+  margin-top: 150px;
+}
+
+.forRent{
+  margin-top: 40px;
+}
+
+.rent-container{
+    margin-top: 350rpx;
+    border: 1.5px solid #405f80;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.forRent-container{
+    margin-top: 15rpx;
+    border: 1.5px solid #405f80;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.box{
+    font-size:26rpx;
+    font-weight: bold;
+    line-height:80rpx;
+    color: #405f80;
+    letter-spacing: 2px;
+}
+
+
+page{
+    height: 100%;
+    background-color:#b3d4db;
+}

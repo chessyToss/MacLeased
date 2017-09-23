@@ -1,0 +1,16 @@
+<view>
+  <block wx:for="{{rentsList}}" wx:for-item="item" wx:for-index="idx">
+    <view class="author-container">
+      <image class="avatar" src="{{item.wechat_avater}}"></image>
+      <text class="author">{{item.wechat_nickname}}</text>
+      <text class="date">{{item.post_time}}</text>
+    </view>
+    <view class="title-container">
+      <text class="titleText">{{item.title}}</text>
+    </view>
+    <view class="container"></view>
+  </block>
+  <!--<block wx:for="{{array}}" wx:for-item="item">
+    <view> {{item}} </view>
+  </block>-->
+</view>

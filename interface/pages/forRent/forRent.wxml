@@ -1,0 +1,9 @@
+<!--pages/forRent/forRent.wxml-->
+<import src="forRent-item/forRent-item-template.wxml" />
+<view>
+  <block wx:for="{{forRentsList}}" wx:for-item="item" wx:for-index="idx">
+    <view>
+      <template is="forRentItemTemplate" data="{{...item}}" />
+    </view>
+  </block>
+</view>

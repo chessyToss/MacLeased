@@ -1,0 +1,4 @@
+/* pages/forRent/forRent.wxss */
+@import "forRent-item/forRent-item-template.wxss";
+
+

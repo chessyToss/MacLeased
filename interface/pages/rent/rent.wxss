@@ -1,0 +1,45 @@
+
+.container {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 0rpx;
+  padding-top: 25rpx;
+}
+
+.author-container{
+  flex-direction: row;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+}
+
+.avatar {
+  height: 64rpx;
+  width: 64rpx;
+  border-radius:50%;
+  vertical-align: middle;
+}
+
+.author {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.date {
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #999;
+}
+
+.titleText{
+  line-height: 44rpx;
+  letter-spacing: 1px;
+}
+
+.title-container{
+  margin-top:10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
