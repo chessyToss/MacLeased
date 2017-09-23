@@ -1,0 +1,11 @@
+<<<<<<< HEAD
+/* pages/forRent/forRent.wxss */
+@import "forRent-item/forRent-item-template.wxss";
+
+
+=======
+/* pages/forRent/forRent.wxss */
+@import "forRent-item/forRent-item-template.wxss";
+
+
+>>>>>>> 885fefeaf63b56670f0fecc6aed53dcf7eddc553

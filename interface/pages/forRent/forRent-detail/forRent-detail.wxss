@@ -1,0 +1,401 @@
+<<<<<<< HEAD
+/* pages/forRent/forRent-detail/forRent-detail.wxss */
+
+swiper {
+  width: 100%;
+  height: 600rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 600rpx;
+}
+
+.swiperContainer{
+    margin-bottom: 20rpx;
+}
+.author-date {
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+}
+
+.avatar {
+  height: 64rpx;
+  width: 64rpx;
+  vertical-align: middle;
+}
+
+.author {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.const-text {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.date {
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #999;
+}
+
+.titlePrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  margin-right: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #4b556c;
+}
+
+.price {
+  font-size: 40rpx;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1c86ee;
+}
+
+.tool {
+  margin-top: 30rpx;
+}
+
+.circle-img {
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+
+.circle-img Image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.share-img {
+  margin-left: 30rpx;
+}
+
+.horizon {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+
+.table_row_header {
+  margin-top:120rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: list-item;
+  padding: 3px;
+  background-color: #99ccff;
+}
+
+.text {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #6e6e6e;
+  letter-spacing: 2px;
+}
+
+.detail-container{
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.detail {
+  line-height: 44rpx;
+  letter-spacing: 1px;
+}
+
+.house-info{
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.table_row {
+  margin-top:20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: list-item;
+  padding: 3px;
+  background-color: #99ccff;
+}
+
+.house_info_detail{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.utilities{
+  display: flex;
+  flex-direction: column;
+}
+
+.utility_container{
+  margin-top: 20rpx;
+}
+
+.icon_container{
+  margin-left: 57rpx;
+  margin-top: 5rpx;
+  flex-direction: column;
+  float:left;
+}
+
+.icon{
+  height: 110rpx;
+  width: 110rpx;
+}
+
+.icon_first_text{
+  font-family: MicroSoft Yahei;
+  font-size: 28rpx;
+  color: #666;
+  letter-spacing: 2px;
+  margin-left: 40rpx;
+}
+
+.icon_second_text{
+  font-family: MicroSoft Yahei;
+  font-size: 28rpx;
+  color: #666;
+  letter-spacing: 2px;
+  margin-right: auto;
+}
+
+.icon_container_second{
+  margin-left: 50rpx;
+  margin-top: 5rpx;
+  flex-direction: column;
+  float:left;
+}
+
+
+=======
+/* pages/forRent/forRent-detail/forRent-detail.wxss */
+
+swiper {
+  width: 100%;
+  height: 600rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 600rpx;
+}
+
+.swiperContainer{
+    margin-bottom: 20rpx;
+}
+.author-date {
+  flex-direction: row;
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+}
+
+.avatar {
+  height: 64rpx;
+  width: 64rpx;
+  vertical-align: middle;
+}
+
+.author {
+  font-size: 30rpx;
+  font-weight: 300;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.const-text {
+  font-size: 24rpx;
+  color: #999;
+  margin-left: 20rpx;
+  vertical-align: middle;
+}
+
+.date {
+  font-size: 24rpx;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #999;
+}
+
+.titlePrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40rpx;
+  margin-top: 30rpx;
+  margin-right: 40rpx;
+}
+
+.title {
+  font-size: 36rpx;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #4b556c;
+}
+
+.price {
+  font-size: 40rpx;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #1c86ee;
+}
+
+.tool {
+  margin-top: 30rpx;
+}
+
+.circle-img {
+  float: right;
+  margin-right: 40rpx;
+  vertical-align: middle;
+}
+
+.circle-img Image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.share-img {
+  margin-left: 30rpx;
+}
+
+.horizon {
+  width: 660rpx;
+  height: 1px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  position: relative;
+  top: 46rpx;
+  margin: 0 auto;
+  z-index: -99;
+}
+
+.table_row_header {
+  margin-top:120rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: list-item;
+  padding: 3px;
+  background-color: #99ccff;
+}
+
+.text {
+  font-size: 30rpx;
+  font-weight: bold;
+  color: #6e6e6e;
+  letter-spacing: 2px;
+}
+
+.detail-container{
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.detail {
+  line-height: 44rpx;
+  letter-spacing: 1px;
+}
+
+.house-info{
+  font-family: MicroSoft Yahei;
+  font-size: 24rpx;
+  color: #666;
+  letter-spacing: 2px;
+}
+
+.table_row {
+  margin-top:20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  display: list-item;
+  padding: 3px;
+  background-color: #99ccff;
+}
+
+.house_info_detail{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.utilities{
+  display: flex;
+  flex-direction: column;
+}
+
+.utility_container{
+  margin-top: 20rpx;
+}
+
+.icon_container{
+  margin-left: 57rpx;
+  margin-top: 5rpx;
+  flex-direction: column;
+  float:left;
+}
+
+.icon{
+  height: 110rpx;
+  width: 110rpx;
+}
+
+.icon_first_text{
+  font-family: MicroSoft Yahei;
+  font-size: 28rpx;
+  color: #666;
+  letter-spacing: 2px;
+  margin-left: 40rpx;
+}
+
+.icon_second_text{
+  font-family: MicroSoft Yahei;
+  font-size: 28rpx;
+  color: #666;
+  letter-spacing: 2px;
+  margin-right: auto;
+}
+
+.icon_container_second{
+  margin-left: 50rpx;
+  margin-top: 5rpx;
+  flex-direction: column;
+  float:left;
+}
+
+
+>>>>>>> 885fefeaf63b56670f0fecc6aed53dcf7eddc553
